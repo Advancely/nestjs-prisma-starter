@@ -25,6 +25,7 @@ const config: Config = {
     refreshIn: '7d',
     bcryptSaltOrRound: 10,
   },
+  secretKey:'JWT_ACCESS_SECRET'
 };
 
 export default (): Config => config;
